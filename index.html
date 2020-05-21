@@ -1,0 +1,9 @@
+<canvas id="Canvas" width="1000" height="600">
+</canvas>
+
+<script src="scripts/simpleGraphs.js"></script>
+<script>
+    canvas = document.getElementById("Canvas");
+    graph = new simpleGraph(canvas, "Time", "Potatos");
+    graph.addLines([[0,0], [1,1], [2,2], [3,3], [4,3], [5,2], [6,1], [7,2], [8, 2.4], [9, 2.2], [10, 2], [11, 1.7], [12, 1.3]], 12, 3);
+</script>
